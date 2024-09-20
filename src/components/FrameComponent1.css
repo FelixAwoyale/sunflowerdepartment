@@ -1,0 +1,63 @@
+.frame-item,
+.united-by-play {
+  align-self: stretch;
+  position: relative;
+}
+.frame-item {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.united-by-play {
+  line-height: 133.9%;
+  white-space: nowrap;
+}
+.teenyiconsarrow-right-solid {
+  width: 53px;
+  height: 53px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.rectangle-parent,
+.united-by-play-parent {
+  width: 193px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.rectangle-parent {
+  width: 441px;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-neue-haas-grotesk-display-pro);
+}
+@media screen and (max-width: 1250px) {
+  .rectangle-parent {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 750px) {
+  .united-by-play {
+    font-size: var(--font-size-7xl);
+    line-height: 34px;
+  }
+  .rectangle-parent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .united-by-play {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}

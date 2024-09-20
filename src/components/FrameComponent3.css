@@ -1,0 +1,141 @@
+/* .projects {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 122px;
+}
+.projects-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+} */
+.playground {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+}
+.frame-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frame-container {
+ 
+  width: 281px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-sm) 0 0;
+  box-sizing: border-box;
+}
+.news,
+.shop,
+.studio {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: inherit;
+  display: inline-block;
+  width: 70px;
+  height: 29px;
+  min-width: 70px;
+}
+.shop,
+.studio {
+  left: 159px;
+  width: 66px;
+  min-width: 66px;
+}
+.studio {
+  left: 314px;
+  width: 87px;
+  min-width: 87px;
+}
+/* .news-parent {
+  margin: 0;
+  height: 29px;
+  width: 400px;
+  position: relative;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-neue-haas-grotesk-display-pro);
+} */
+.frame-group,
+.frame-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-group {
+  /* align-self: stretch; */
+  width: 100%;
+  justify-content: space-between;
+  /* padding: 0 var(--padding-11xs) 0 0; */
+  gap: var(--gap-xl);
+}
+.frame-wrapper {
+  width: 100%;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-neue-haas-grotesk-display-pro);
+}
+.banner-1-icon,
+.eiarrow-up-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.eiarrow-up-icon {
+  top: 625px;
+  left: 678px;
+  width: 84px;
+  height: 84px;
+  overflow: hidden;
+  object-fit: contain;
+  z-index: 1;
+}
+.banner-1-parent {
+  align-self: stretch;
+  height: 774px;
+  position: relative;
+}
+.frame-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-14xl-8);
+  max-width: 100%;
+}
+@media screen and (max-width: 1100px) {
+  .frame-group {
+    display: none;
+  }
+  .frame-wrapper {
+    width: 164px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frame-parent {
+    gap: var(--gap-mid);
+  }
+}

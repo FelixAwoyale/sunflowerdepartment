@@ -1,0 +1,213 @@
+.frame-child4,
+.love-more {
+  align-self: stretch;
+  position: relative;
+}
+.frame-child4 {
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.love-more {
+  line-height: 133.9%;
+}
+.teenyiconsarrow-right-solid4 {
+  width: 53px;
+  height: 53px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.love-more-parent,
+.rectangle-parent2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.rectangle-parent2 {
+  width: 626px;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.frame-parent5,
+.love-more-content-inner {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.frame-parent5 {
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.love-more-content-inner {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.span {
+  font-family: var(--font-neue-haas-grotesk-display-pro);
+}
+.made-with-love {
+  margin: 0;
+}
+.made-with-love-container {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 133.9%;
+  display: inline-block;
+  max-width: 100%;
+  font-family: inherit;
+}
+.made-with-love-backed-by-resea-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xl) 0 var(--padding-9xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-80xl);
+}
+.line-div {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.sunflower-department-all {
+  width: 551px;
+  position: relative;
+  line-height: 133.9%;
+  display: inline-block;
+  flex-shrink: 0;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.instagram {
+  flex: 1;
+  display: inline-block;
+  min-width: 117px;
+}
+.instagram,
+.twitter {
+  position: relative;
+  line-height: 133.9%;
+}
+.social-media,
+.sunflower-department-all-right-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.social-media {
+  width: 224px;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.sunflower-department-all-right-parent {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 0;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.line-parent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+  font-size: var(--font-size-2xl);
+}
+.line-parent,
+.love-more-content,
+.love-more-content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.love-more-content {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-77xl);
+}
+.love-more-content-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-57xl) 0 var(--padding-58xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-neue-haas-grotesk-display-pro);
+}
+@media screen and (max-width: 1250px) {
+  .rectangle-parent2 {
+    flex: 1;
+  }
+  .frame-parent5 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .rectangle-parent2 {
+    min-width: 100%;
+  }
+  .sunflower-department-all-right-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .love-more {
+    font-size: var(--font-size-5xl);
+    line-height: 32px;
+  }
+  .made-with-love-container {
+    font-size: var(--font-size-30xl);
+    line-height: 80px;
+  }
+  .line-parent {
+    gap: var(--gap-xl);
+  }
+  .love-more-content {
+    gap: var(--gap-29xl);
+  }
+  .love-more-content-wrapper {
+    padding-left: var(--padding-19xl);
+    padding-right: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .love-more {
+    font-size: var(--font-size-lg);
+    line-height: 24px;
+  }
+  .made-with-love-container {
+    font-size: var(--font-size-11xl);
+    line-height: 53px;
+  }
+  .instagram,
+  .sunflower-department-all,
+  .twitter {
+    font-size: var(--font-size-mid);
+    line-height: 22px;
+  }
+  .love-more-content {
+    gap: var(--gap-5xl);
+  }
+}
